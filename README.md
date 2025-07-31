@@ -52,4 +52,4 @@ o	Exit
 •	Persistence: Load existing playlist on startup, save changes automatically.
 
 # Contributing To the Codebase:
-Contributions are welcome! Feel free to fork, modify, and submit pull requests to improve and expand upon functionality or fix bugs. Pull requests are appreciated.
+Contributions are welcome! Feel free to fork, modify, and submit pull requests to improve and expand upon functionality or fix bugs.
