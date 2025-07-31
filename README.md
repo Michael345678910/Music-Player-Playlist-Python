@@ -1,2 +1,55 @@
-# Music-Player-Playlist-Python
-The given code is a Python program that implements a music playlist player. The program defines a class called "Node" which represents a node in a linked list. Each node has a "song" attribute which stores the name of a song, and "next" and "prev" attributes which point to the next and previous nodes in the linked list, respectively. The program also defines several functions: - "tofile(a)" function: This function takes a song name as input and appends it to a file called "playlist.txt". - "add_node(first)" function: This function prompts the user to enter a song name and adds a new node with that song name to the end of the linked list. It also calls the "tofile(a)" function to add the song name to the file. - "add_node_file(first, a)" function: This function adds a new node with the given song name to the end of the linked list. It is used to add songs from a file to the playlist. - "delete_file(a)" function: This function deletes a song with the given name from the "playlist.txt" file. - "del_node(first)" function: This function deletes the last node from the linked list. - "printlist(first)" function: This function prints the names of all the songs in the linked list. - "count_nodes(first)" function: This function counts the number of nodes in the linked list and prints the total number of songs. - "del_pos(pointer, pos)" function: This function deletes the node at the given position in the linked list. - "search1(first)" function: This function prompts the user to enter a song name and searches for that song in the linked list. If the song is found, it prints a message indicating that the song was found. Otherwise, it prints a message indicating that the song was not found. - "create()" function: This function initializes a global variable called "top" to None. - "push(data)" function: This function adds a new node with the given song name to the beginning of the linked list. - "display()" function: This function prints the names of all the songs in the linked list starting from the beginning. - "play(first)" function: This function prompts the user to choose a song to play from the linked list. If the song is found, it prints a message indicating that the song is now playing and calls the "push(song)" function to add the song to the recently played list. - "recent()" function: This function calls the "display()" function to display the recently played songs. - "topelement()" function: This function prints the last played song from the recently played list. - "sort(pointer)" function: This function sorts the songs in the linked list in alphabetical order. - "addplaylist(start)" function: This function reads song names from the "playlist.txt" file and adds them to the linked list. - "del_search(start)" function: This function prompts the user to choose a song to delete from the linked list. If the song is found, it deletes the node containing that song from the linked list and the "playlist.txt" file. - "deletemenu(start)" function: This function prompts the user to choose a type of delete function (by search or by position) and calls the corresponding function. - "main()" function: This function is the main entry point of the program. It initializes the linked list with a playlist name, creates an empty recently played list, and then displays a menu of options for the user to interact with the playlist. The user can add songs, delete songs, display the playlist, search for songs, play songs, view the recently played list, view the last played song, sort the playlist, add songs from a file, or exit the program.
+# Music Player Playlist in Python
+
+# Overview:
+
+This project is a command-line music playlist manager programmed in Python. It allows users to create, manage, and interact with a playlist of songs through a variety of features such as adding, deleting, searching, playing, and sorting songs. The playlist is stored persistently in a text file, “playlist.txt”, to ensure data retention between sessions. The program utilizes a doubly linked list structure to manage the playlist dynamically, enabling efficient insertion, deletion, and traversal of songs. Additionally, users can view recently played songs, sort their playlist alphabetically, and load a playlist from a file.
+
+Designed for music enthusiasts or anyone interested in building a simple yet functional playlist management tool, this application combines data structures, file handling, and user interaction allowing for interactive menus to provide a seamless experience for managing your favorite songs.
+
+# Features:
+•	Add songs to the playlist (manually or from file)
+•	Delete songs by name or position in the playlist
+•	Search for songs within the playlist
+•	Play songs (simulated with messages) and maintain a recently played list
+•	View the current playlist
+•	View recently played songs
+•	Sort the playlist alphabetically
+•	Save the playlist to and load from a file, “playlist.txt”
+•	Delete songs from both the playlist and file, allowing for management of the playlist with multiple options, including full control over songs
+
+## Technologies Used:
+•	Python 3.11
+•	Standard Python libraries (os, sys)
+
+# Usage Instructions:
+
+## Installation & Setup:
+1.	Clone this repository. Ensure that Python 3.11 is installed inside of a runnable IDE (Such as PyCharm).
+2.	After that there are no additional libraries required; just run the “main.py” script directly.
+
+## Running the Main Program:
+1.	Launch the program: python main.py
+2.	The program will display a menu with the following options:
+o	Add a new song
+o	Delete a song
+o	Display the playlist
+o	Count total songs
+o	Search for a song
+o	Play a song
+o	View recently played songs
+o	View last played song
+o	Sort playlist alphabetically
+o	Load playlist from a file
+o	Exit
+3.	Follow the prompts to manage your playlist as desired. The playlist will still be there and persist between sessions via the playlist.txt file.
+
+## How It Works:
+•	Adding songs: Entries are appended to the linked list and saved in playlist.txt.
+•	Deleting songs: Remove songs by name from the list and update the text file.
+•	Searching: Find if a song exists by name inside of the playlist file.
+•	Playing: Simulate playing a song and update recently played list.
+•	Sorting: Arranges songs in the playlist alphabetically.
+•	Persistence: Load existing playlist on startup, save changes automatically.
+
+## Contributing To the Codebase:
+Contributions are welcome! Feel free to fork, modify, and submit pull requests to improve and expand upon functionality or fix bugs.
