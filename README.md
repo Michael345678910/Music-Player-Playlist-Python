@@ -30,7 +30,7 @@ Designed for music enthusiasts or anyone interested in building a simple yet fun
 ## Running the Main Program:
 1.	Launch the program: python main.py
 2.	The program will display a menu with the following options:
-o	Add a new song
+-- Add a new song
 o	Delete a song
 o	Display the playlist
 o	Count total songs
