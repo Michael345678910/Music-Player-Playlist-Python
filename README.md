@@ -18,8 +18,8 @@ Designed for music enthusiasts or anyone interested in building a simple yet fun
 - Delete songs from both the playlist and file, allowing for management of the playlist with multiple options, including full control over songs
 
 ## Technologies Used:
-•	Python 3.11
-•	Standard Python libraries (os, sys)
+- Python 3.11
+- Standard Python libraries (os, sys)
 
 # Usage Instructions:
 
@@ -44,12 +44,12 @@ o	Exit
 3.	Follow the prompts to manage your playlist as desired. The playlist will still be there and persist between sessions via the playlist.txt file.
 
 ## How It Works:
-•	Adding songs: Entries are appended to the linked list and saved in playlist.txt.
-•	Deleting songs: Remove songs by name from the list and update the text file.
-•	Searching: Find if a song exists by name inside of the playlist file.
-•	Playing: Simulate playing a song and update recently played list.
-•	Sorting: Arranges songs in the playlist alphabetically.
-•	Persistence: Load existing playlist on startup, save changes automatically.
+- Adding songs: Entries are appended to the linked list and saved in playlist.txt.
+- Deleting songs: Remove songs by name from the list and update the text file.
+- Searching: Find if a song exists by name inside of the playlist file.
+- Playing: Simulate playing a song and update recently played list.
+- Sorting: Arranges songs in the playlist alphabetically.
+- Persistence: Load existing playlist on startup, save changes automatically.
 
 # Contributing To the Codebase:
 Contributions are welcome! Feel free to fork, modify, and submit pull requests to improve and expand upon functionality or fix bugs.
