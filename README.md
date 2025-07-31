@@ -7,15 +7,15 @@ This project is a command-line music playlist manager programmed in Python. It a
 Designed for music enthusiasts or anyone interested in building a simple yet functional playlist management tool, this application combines data structures, file handling, and user interaction allowing for interactive menus to provide a seamless experience for managing your favorite songs.
 
 # Features:
-•	Add songs to the playlist (manually or from file)
-•	Delete songs by name or position in the playlist
-•	Search for songs within the playlist
-•	Play songs (simulated with messages) and maintain a recently played list
-•	View the current playlist
-•	View recently played songs
-•	Sort the playlist alphabetically
-•	Save the playlist to and load from a file, “playlist.txt”
-•	Delete songs from both the playlist and file, allowing for management of the playlist with multiple options, including full control over songs
+- Add songs to the playlist (manually or from file)
+- Delete songs by name or position in the playlist
+- Search for songs within the playlist
+- Play songs (simulated with messages) and maintain a recently played list
+- View the current playlist
+- View recently played songs
+- Sort the playlist alphabetically
+- Save the playlist to and load from a file, “playlist.txt”
+- Delete songs from both the playlist and file, allowing for management of the playlist with multiple options, including full control over songs
 
 ## Technologies Used:
 •	Python 3.11
