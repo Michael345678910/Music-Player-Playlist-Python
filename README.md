@@ -30,17 +30,17 @@ Designed for music enthusiasts or anyone interested in building a simple yet fun
 ## Running the Main Program:
 1.	Launch the program: python main.py
 2.	The program will display a menu with the following options:
--- Add a new song
-o	Delete a song
-o	Display the playlist
-o	Count total songs
-o	Search for a song
-o	Play a song
-o	View recently played songs
-o	View last played song
-o	Sort playlist alphabetically
-o	Load playlist from a file
-o	Exit
+- Add a new song
+- Delete a song
+- Display the playlist
+- Count total songs
+- Search for a song
+- Play a song
+- View recently played songs
+- View last played song
+- Sort playlist alphabetically
+- Load playlist from a file
+- Exit
 3.	Follow the prompts to manage your playlist as desired. The playlist will still be there and persist between sessions via the playlist.txt file.
 
 ## How It Works:
