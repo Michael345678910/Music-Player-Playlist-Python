@@ -25,6 +25,9 @@ Designed for music enthusiasts or anyone interested in building a simple yet fun
 
 # File Pathway Tree/ File Directory:
 
+\Music-Player-Playlist-Python\
+| --- main.py
+
 ## Installation & Setup:
 1.	Clone this repository. Ensure that Python 3.11 is installed inside of a runnable IDE (Such as PyCharm).
 2.	After that there are no additional libraries required; just run the “main.py” script directly.
